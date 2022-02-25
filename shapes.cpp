@@ -126,12 +126,12 @@ std::string checker3(int w, int h) {
     for (int j = 0; j < w; j++) {
       if (i % 6 < 3) {
         if (j % 6 < 3)
-          checker3 += "";
+          checker3 += "*";
         else
           checker3 += " ";
         }
         else if (j % 6 >= 3)
-          checker3 += "";
+          checker3 += "*";
         else
           checker3 += " ";
       }
